@@ -281,8 +281,8 @@ def main():
         app.run_webhook(
             listen="0.0.0.0",
             port=PORT,
-            url_path=BOT_TOKEN,
-            webhook_url=f"{WEBHOOK_URL}/{BOT_TOKEN}",
+            url_path="webhook",
+          webhook_url=f"{WEBHOOK_URL}/webhook",
         )
     else:
         app.run_polling()
