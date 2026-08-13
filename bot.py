@@ -17,8 +17,8 @@ from telegram.ext import (
 )
 
 # ============================================================
-# ABOD LUDO KING — FREE-TO-PLAY POINTS BOT
-# No real money / no cash wagering.
+# ABOD LUDO KING — 
+# real money 
 # ============================================================
 
 logging.basicConfig(
